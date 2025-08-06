@@ -1,217 +1,128 @@
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
-%	The MIT License (MIT)
-%
-%	Copyright (c) 2021 Jitin Nair
-%
-%	Permission is hereby granted, free of charge, to any person obtaining a copy
-%	of this software and associated documentation files (the "Software"), to deal
-%	in the Software without restriction, including without limitation the rights
-%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-%	copies of the Software, and to permit persons to whom the Software is
-%	furnished to do so, subject to the following conditions:
-%	
-%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-%	THE SOFTWARE.
-%	
-%
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
+\documentclass[a4paper,11pt]{article}
 
-%----------------------------------------------------------------------------------------
-%	DOCUMENT DEFINITION
-%----------------------------------------------------------------------------------------
-
-% article class because we want to fully customize the page and not use a cv template
-\documentclass[a4paper,12pt]{article}
-
-%----------------------------------------------------------------------------------------
-%	FONT
-%----------------------------------------------------------------------------------------
-
-% % fontspec allows you to use TTF/OTF fonts directly
-% \usepackage{fontspec}
-% \defaultfontfeatures{Ligatures=TeX}
-
-% % modified for ShareLaTeX use
-% \setmainfont[
-% SmallCapsFont = Fontin-SmallCaps.otf,
-% BoldFont = Fontin-Bold.otf,
-% ItalicFont = Fontin-Italic.otf
-% ]
-% {Fontin.otf}
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES
-%----------------------------------------------------------------------------------------
+% Setting up the geometry for balanced margins
+\usepackage[scale=0.85]{geometry}
 \usepackage{url}
-\usepackage{parskip} 	
-
-%other packages for formatting
-\RequirePackage{color}
-\RequirePackage{graphicx}
-\usepackage[usenames,dvipsnames]{xcolor}
-\usepackage[scale=0.9]{geometry}
-
-%tabularx environment
+\usepackage{parskip}
 \usepackage{tabularx}
-
-%for lists within experience section
 \usepackage{enumitem}
-
-% centered version of 'X' col. type
-\newcolumntype{C}{>{\centering\arraybackslash}X} 
-
-%to prevent spillover of tabular into next pages
-\usepackage{supertabular}
-\usepackage{tabularx}
-\newlength{\fullcollw}
-\setlength{\fullcollw}{0.47\textwidth}
-
-%custom \section
-\usepackage{titlesec}				
-\usepackage{multicol}
-\usepackage{multirow}
-
-%CV Sections inspired by: 
-%http://stefano.italians.nl/archives/26
-\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{10pt}{10pt}
-
-%for publications
-\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
-
-%Setup hyperref package, and colours for links
-\usepackage[unicode, draft=false]{hyperref}
-\definecolor{linkcolour}{rgb}{0,0.2,0.6}
-\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
-\addbibresource{citations.bib}
-\setlength\bibitemsep{1em}
-
-%for social icons
+\usepackage{titlesec}
+\usepackage{hyperref}
 \usepackage{fontawesome5}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 
-%debug page outer frames
-%\usepackage{showframe}
+% Set all links to black for black-and-white CV
+\hypersetup{colorlinks=true, urlcolor=black, linkcolor=black, citecolor=black}
 
+% Setting main font to Latin Modern for PDFLaTeX compatibility
+\usepackage{lmodern}
 
-% job listing environments
-\newenvironment{jobshort}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+% Customizing section titles
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{6pt}
+
+% Centered column type for tabularx
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+% Fixed jobshort environment
+\newcommand{\jobshort}[3]{
+    \begin{tabularx}{\linewidth}{@{}l r@{}}
+    \textbf{#1} & #2 \\
+    \multicolumn{2}{@{}p{\linewidth}@{}}{#3}
     \end{tabularx}
-    }
-    {
-    }
+}
 
+% Custom environment for detailed job/project listings
 \newenvironment{joblong}[2]
     {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \begin{tabularx}{\linewidth}{@{}l r@{}}
+    \textbf{#1} & #2 \\[2pt]
     \end{tabularx}
-    \begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
+    \begin{itemize}[nosep,leftmargin=1.5em,itemsep=2pt,label=--]
     }
     {
     \end{itemize}
-    \end{minipage}    
     }
 
-
-
-%----------------------------------------------------------------------------------------
-%	BEGIN DOCUMENT
-%----------------------------------------------------------------------------------------
+% Begin document
 \begin{document}
+\pagestyle{empty}
 
-% non-numbered pages
-\pagestyle{empty} 
+% FIXED TITLE SECTION
+\begin{center}
+\LARGE\textbf{Phan Xuân Thái} \\[2pt]
+\small\textbf{\href{mailto:phanxuanthai2004@gmail.com}{phanxuanthai2004@gmail.com} $|$ 
+\href{tel:0934904613}{0934904613} $|$ 
+\href{https://github.com/hidr0c}{github.com/hidr0c} $|$ 
+\href{https://www.linkedin.com/in/xuân-thái-phan-bab693352/}{linkedin.com/phan-xuan-thai}}
+\\
+\end{center}
 
-%----------------------------------------------------------------------------------------
-%	TITLE
-%----------------------------------------------------------------------------------------
-
-% \begin{tabularx}{\linewidth}{ @{}X X@{} }
-% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
-% \raisebox{-0.05\height}\faGithub\ username \ | \
-% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
-% \end{tabularx}
-
-\begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
-\end{tabularx}
-
-%----------------------------------------------------------------------------------------
-% EXPERIENCE SECTIONS
-%----------------------------------------------------------------------------------------
-
-%Interests/ Keywords/ Summary
+% Summary
 \section{Summary}
-This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+Proactive and ambitious junior Software Engineering student at HUFLIT with a strong foundation in front-end development. Proficient in JavaScript and TypeScript, with hands-on experience using React, Next.js, and Tailwind CSS. Continuously building real-world projects to sharpen skills and deliver clean, scalable code. Seeking a front-end fresher or internship position where I can contribute effectively from day one while continuing to grow professionally.
 
-%Experience
-\section{Work Experience}
-
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
-\end{jobshort}
-
-
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
-\end{joblong}
-  
-%Projects
-\section{Projects}
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
-\end{tabularx}
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
+% Education
 \section{Education}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
-
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
-
-2022 & Class 12th Some Board \hfill  (Grades) \\
-
-2021 & Class 10th Some Board \hfill  (Grades) \\
+\begin{tabularx}{\linewidth}{@{}l@{}}
+\textbf{Ho Chi Minh City University of Foreign Languages and Information Technology (HUFLIT)} \\
+\small\textit{October 2022 -- Present} \\
+Software Engineering -- Junior
 \end{tabularx}
 
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS
-%----------------------------------------------------------------------------------------
-\section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
-
-%----------------------------------------------------------------------------------------
-%	SKILLS
-%----------------------------------------------------------------------------------------
+% Skills
 \section{Skills}
-\begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
-\end{tabularx}
+\textbf{Programming Languages:} JavaScript, TypeScript, C\#, HTML/CSS (SCSS) \\
+\textbf{Frameworks:} Bootstrap 5, React, Next.js, Tailwind CSS, ASP.NET \\
+\textbf{Tools:} Visual Studio 2022, Git, Visual Studio Code \\
+\textbf{Soft Skills:} Event planning and organization, Team collaboration and communication, Time management and problem-solving \\
+\textbf{Language:} English – Successfully completed the Academic English program at university
 
-\vfill
-\center{\footnotesize Last updated: \today}
+% Projects
+\section{Projects}
+% Project 1
+\begin{minipage}[t]{\linewidth}
+  \textbf{TUYU Archives} \\
+  \small\textit{26/11/2024 – 03/07/2025} \\
+  \textbf{Github:} \href{https://github.com/hidr0c/tuyu-archives}{github.com/hidr0c/tuyu-archives} \\
+  \textbf{Website:} \href{https://tuyu-archives-pied.vercel.app}{tuyu-archives-pied.vercel.app} \\
+  \textbf{Team Size:} 1 (Individual Project) \\
+  \textbf{Tech Stack:} TypeScript, Next.js, Tailwind CSS, Google Drive API \\
+  \textbf{Responsibilities and Contributions: }
+  \begin{itemize}[nosep,leftmargin=1.2em,itemsep=2pt]
+    \item Integrated Google Drive API for direct video streaming
+    \item Responsive video player with playlist and search
+    \item Clean UI with soft effects
+  \end{itemize}
+\end{minipage}
 
+\vspace{0.5em}
+
+% Project 2
+\begin{minipage}[t]{\linewidth}
+  \textbf{PXT Shoes Shop} \\
+  \small\textit{21/03/2025 – 31/03/2025} \\
+  \textbf{Github:} \href{https://github.com/hidr0c/PXT-Shoes-Store}{github.com/hidr0c/PXT-Shoes-Store} \\
+  \textbf{Team Size:} 4 \\
+  \textbf{Role:} Front-end Developer \\
+  \textbf{Tech Stack:} ASP.NET, C\#, Entity Framework, SQL Server, Tailwind CSS, VNPay API, Bootstrap 5 \\
+  \textbf{Responsibilities and Contributions:}
+  \begin{itemize}[nosep,leftmargin=1.2em,itemsep=2pt]
+    \item Built and improved main UI pages for responsive layout
+    \item Contributed to admin dashboard for managing products, users, and orders
+  \end{itemize}
+\end{minipage}
+
+% Activities
+\section{Activities}
+\begin{joblong}{MSOC Tournament}{\hspace*{0.5\linewidth}\small\textit{October 2023 -- December 2024}}
+\item Team Leader, Project Management
+\item Led a student-focused maimai game tournament in partnership with Dream Games Tan Phu. Planned, coordinated, and managed event operations, communication, and team tasks. Attracted strong participation and received positive partner feedback. Full article on LinkedIn.
+\end{joblong}
+
+
+
+% Footer
+\vspace*{\fill}
 \end{document}
