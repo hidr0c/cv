@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1754500013.61993 "c:/Users/Hidr0/Desktop/cv/cv.tex" "cv.pdf" "cv" 1754500014.36669 0
+["pdflatex"] 1754500471.5037 "c:/Users/Hidr0/Desktop/cv/cv.tex" "cv.pdf" "cv" 1754500472.18472 0
   "C:/Users/Hidr0/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1754488656 82011 97247c01f6bfb6f6d0c40fab12a08423 ""
   "C:/Users/Hidr0/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1754488565 24225045 21d526bed5ad728d293dcae34e319911 ""
   "C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -98,10 +98,10 @@
   "C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1700599895 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
   "C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Hidr0/Desktop/cv/cv.tex" 1754500012 4978 60fcde4e13ae8d3ccd58b5364b4e0b84 ""
-  "cv.aux" 1754500014 687 c99ec2fdc322d3a2a1c587b4f5869372 "pdflatex"
-  "cv.out" 1754500014 415 3266bca4cc6cccf12b46aa582ac50011 "pdflatex"
-  "cv.tex" 1754500012 4978 60fcde4e13ae8d3ccd58b5364b4e0b84 ""
+  "c:/Users/Hidr0/Desktop/cv/cv.tex" 1754500470 5090 5242a69edbc8430ac44be7c8772c691c ""
+  "cv.aux" 1754500472 687 c99ec2fdc322d3a2a1c587b4f5869372 "pdflatex"
+  "cv.out" 1754500472 415 3266bca4cc6cccf12b46aa582ac50011 "pdflatex"
+  "cv.tex" 1754500470 5090 5242a69edbc8430ac44be7c8772c691c ""
   (generated)
   "cv.aux"
   "cv.log"
