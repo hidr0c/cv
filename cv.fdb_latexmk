@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1754527452.8306 "c:/Users/Hidr0/Desktop/cv/cv.tex" "cv.pdf" "cv" 1754527453.45122 0
-  "C:/Users/Hidr0/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1754500595 83609 ebbc432e6cbbb238d39535255db2c8bd ""
+["pdflatex"] 1754538723.9343 "c:/Users/Hidr0/Desktop/cv/cv.tex" "cv.pdf" "cv" 1754538724.58135 0
+  "C:/Users/Hidr0/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1754528548 83609 ebbc432e6cbbb238d39535255db2c8bd ""
   "C:/Users/Hidr0/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1754500623 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Hidr0/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1754488565 24225045 21d526bed5ad728d293dcae34e319911 ""
   "C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -89,14 +89,15 @@
   "C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ts1ptm.fd" 1585253778 653 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
   "C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
+  "C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1700599895 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
   "C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Hidr0/Desktop/cv/cv.tex" 1754527452 5257 eb859750b28f9acbd6d1e6216f626fb7 ""
-  "cv.aux" 1754527453 687 c99ec2fdc322d3a2a1c587b4f5869372 "pdflatex"
-  "cv.out" 1754527453 415 3266bca4cc6cccf12b46aa582ac50011 "pdflatex"
-  "cv.tex" 1754527452 5257 eb859750b28f9acbd6d1e6216f626fb7 ""
+  "c:/Users/Hidr0/Desktop/cv/cv.tex" 1754538723 6300 0fd14e6c862ac658d8cb43a3a399dad5 ""
+  "cv.aux" 1754538724 687 222dfcf0d3fb00b0f24358b7d2af512b "pdflatex"
+  "cv.out" 1754538724 415 252ea5136c80eb4367cfed7574287b8d "pdflatex"
+  "cv.tex" 1754538723 6300 0fd14e6c862ac658d8cb43a3a399dad5 ""
   (generated)
   "cv.aux"
   "cv.log"

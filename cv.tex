@@ -17,6 +17,8 @@
 
 % Setting main font to Times New Roman
 \usepackage{mathptmx}
+% Add setspace package for line spacing
+\usepackage{setspace}
 
 % Customizing section titles
 \titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
@@ -51,49 +53,64 @@
 
 % FIXED TITLE SECTION
 \begin{center}
-\LARGE\textbf{Phan Xuân Thái} \\[5pt]
-\small\textbf{\href{mailto:phanxuanthai2004@gmail.com}{phanxuanthai2004@gmail.com} $|$ 
+\LARGE{Phan Xuân Thái} \\[5pt]
+\small{\href{mailto:phanxuanthai2004@gmail.com}{phanxuanthai2004@gmail.com} $|$ 
 \href{tel:0934904613}{0934904613} $|$ 
-\href{https://github.com/hidr0c}{\textbf{\underline{github.com/hidr0c}}} $|$ 
-\href{https://www.linkedin.com/in/xuân-thái-phan-bab693352/}{\textbf{\underline{linkedin.com/phan-xuan-thai}}} 
+\href{https://github.com/hidr0c}{\underline{github.com/hidr0c}} $|$ 
+\href{https://www.linkedin.com/in/xuân-thái-phan-bab693352/}{\underline{linkedin.com/phan-xuan-thai}} 
 } \\[2pt]
 \end{center}
+% Add extra vertical space between title and first section
+\vspace{1.5em}
 
 % Summary
 \section{Summary}
+\begin{spacing}{1.05}
 Proactive and motivated junior Software Engineering student at HUFLIT with a solid foundation in front-end development. Experienced with JavaScript, TypeScript, React, Next.js, and Tailwind CSS through personal and academic projects. Continuously building projects to strengthen my skills and write clean, maintainable code. Looking for a front-end fresher or internship position to gain practical experience, contribute to real-world products, and continue learning from a professional team.
+\end{spacing}
+
+% Skills
+\section{Skills}
+\begin{spacing}{1.05}
+\textbf{Programming Languages:} JavaScript, TypeScript, C\#, HTML/CSS (SCSS) \\
+\textbf{Frameworks / Libraries:} Bootstrap 5, React, Next.js, Tailwind CSS, ASP.NET \\
+\textbf{Tools:} Visual Studio 2022, Git, Visual Studio Code \\
+\textbf{Soft Skills:} Event planning and organization, Team collaboration and communication, Time management and problem-solving \\
+\end{spacing}
 
 % Education
 \section{Education}
+\begin{spacing}{1.05}
 \begin{tabularx}{\linewidth}{@{}l@{}}
 \textbf{Ho Chi Minh City University of Foreign Languages and Information Technology (HUFLIT)} \\
 \small\textit{October 2022 -- Present} \\
 Software Engineering -- Junior
 \end{tabularx}
-
-% Skills
-\section{Skills}
-\textbf{Programming Languages:} JavaScript, TypeScript, C\#, HTML/CSS (SCSS) \\
-\textbf{Frameworks:} Bootstrap 5, React, Next.js, Tailwind CSS, ASP.NET \\
-\textbf{Tools:} Visual Studio 2022, Git, Visual Studio Code \\
-\textbf{Soft Skills:} Event planning and organization, Team collaboration and communication, Time management and problem-solving \\
-\textbf{Language:} English – Successfully completed the Academic English program at university
+\end{spacing}
 
 % Projects
 \section{Projects}
+\begin{spacing}{1.05}
 % Project 1
 \begin{minipage}[t]{\linewidth}
-  \textbf{TUYU Archives} \\
-  \small\textit{\hspace*{0.8\linewidth}26/11/2024 – 03/07/2025} \\
-  \textbf{Github:} \href{https://github.com/hidr0c/tuyu-archives}{\textbf{\underline{github.com/hidr0c/tuyu-archives}}} \\
-  \textbf{Website:} \href{https://tuyu-archives-pied.vercel.app}{\textbf{\underline{tuyu-archives-pied.vercel.app}}} \\
-  \textbf{Team Size:} 1 (Individual Project) \\
-  \textbf{Tech Stack:} TypeScript, Next.js, Tailwind CSS, Google Drive API \\
-  \textbf{Responsibilities and Contributions: }
+  \begin{tabularx}{\linewidth}{@{}l r@{}}
+    \textbf{TUYU Archives} & \hspace*{0.63\linewidth}\small\textit{26/11/2024 – 03/07/2025} \\
+  \end{tabularx}
+  \begin{tabularx}{\linewidth}{@{}l r@{}}
+  \normalsize\textit {TypeScript, Next.js, Tailwind CSS, Google Drive API}& \hspace*{0.24\linewidth}\href{https://github.com/hidr0c/tuyu-archives}{\normalsize\textit{github.com/hidr0c/tuyu-archives}}\\
+  \end{tabularx}
+  \textbf{Website:} \href{https://tuyu-archives-pied.vercel.app}{\normalsize\textit{https://tuyu-archives-pied.vercel.app}}  
   \begin{itemize}[nosep,leftmargin=1.2em,itemsep=2pt]
-    \item Integrated Google Drive API for direct video streaming
-    \item Responsive video player with playlist and search
-    \item Clean UI with soft effects
+  \item Built a video streaming app with Next.js + React.
+  \item Integrated Google Drive API for video and subtitle retrieval (.webm, .mp4, .mkv).
+  \item Developed \textbf{EnhancedVideoPlayer} with:
+  \begin{itemize}
+    \item Playlist 
+    \item Dynamic subtitle loading (with CORS handling)
+    \item Built-in: play, pause, volume, fullscreen
+  \end{itemize}
+  \item Created REST APIs for managing local and Drive-based videos.
+  \item Refactored legacy codebase for scalability and type safety with TypeScript.
   \end{itemize}
 \end{minipage}
 
@@ -101,26 +118,38 @@ Software Engineering -- Junior
 
 % Project 2
 \begin{minipage}[t]{\linewidth}
-  \textbf{PXT Shoes Shop} \\
-  \small\textit{\hspace*{0.8\linewidth}21/03/2025 – 31/03/2025} \\
-  \textbf{Github:} \href{https://github.com/hidr0c/PXT-Shoes-Store}{\textbf{\underline{github.com/hidr0c/PXT-Shoes-Store}}} \\
-  \textbf{Team Size:} 4 \\
-  \textbf{Role:} Front-end Developer \\
-  \textbf{Tech Stack:} ASP.NET, C\#, Entity Framework, SQL Server, Tailwind CSS, VNPay API, Bootstrap 5 \\
-  \textbf{Responsibilities and Contributions:}
-  \begin{itemize}[nosep,leftmargin=1.2em,itemsep=2pt]
-    \item Built and improved main UI pages for responsive layout
-    \item Contributed to admin dashboard for managing products, users, and orders
-  \end{itemize}
+  \begin{tabularx}{\linewidth}{@{}l r@{}}
+    \textbf{PXT Food Store} & \hspace*{0.63\linewidth}\small\textit{21/03/2025 – 31/03/2025} \\
+  \end{tabularx}
+  \begin{tabularx}{\linewidth}{@{}l r@{}}
+  \normalsize\textit{Flutter, Dart, REST API, Firebase} & \hspace*{0.39\linewidth} {\normalsize\textit{github.com/hidr0c/PXTFoodStore}}\\
+  \end{tabularx}
+ \begin{itemize} [nosep,leftmargin=1.2em,itemsep=2pt]
+  \item Developed a cross-platform food ordering app with Flutter, supporting Android, iOS, web, and desktop.
+  \item Integrated Firebase (Authentication, Firestore, Storage) for secure login, real-time data, and image handling.
+  \item Designed a custom Material UI with responsive layouts, Google Fonts, and multi-language support.
+  \item Managed app state and cart logic using Provider; enabled persistent cart and order history with shared preferences.
+  \item Added review/rating system, image uploads, and admin features for order and inventory management.
+\end{itemize}
+
+
+
+  
 \end{minipage}
+\end{spacing}
 
 % Activities
 \section{Activities}
-\begin{joblong}{MSOC Tournament}{\hspace*{0.54\linewidth}\small\textit{October 2023 -- December 2024}}
-\item Team Leader, Project Management
-\item Led a student-focused maimai game tournament in partnership with Dream Games Tan Phu. Planned, coordinated, and managed event operations, communication, and team tasks. Attracted strong participation and received positive partner feedback. 
-\item Full article on \href{https://www.linkedin.com/feed/update/urn:li:activity:7300042302784233472/}{\textbf{\underline{LinkedIn}}}.
-\end{joblong}
+\begin{spacing}{1.05}
+\begin{tabularx}{\linewidth}{@{}l r@{}}
+  \textbf{MSOC Tournament} & \hspace*{0.54\linewidth}\small\textit{October 2023 -- December 2024} \\
+\end{tabularx}
+\begin{itemize}[nosep,leftmargin=1.2em,itemsep=2pt]
+  \item Team Leader, Project Management
+  \item Led a student-focused maimai game tournament in partnership with Dream Games Tan Phu. Planned, coordinated, and managed event operations, communication, and team tasks. Attracted strong participation and received positive partner feedback. 
+  \item Full article on \href{https://www.linkedin.com/feed/update/urn:li:activity:7300042302784233472/}{\underline{LinkedIn}}.
+\end{itemize}
+\end{spacing}
 
 
 
