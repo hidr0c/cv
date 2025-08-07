@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  7 AUG 2025 10:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  7 AUG 2025 11:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -375,7 +375,12 @@ Underfull \hbox (badness 10000) in alignment at lines 88--88
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 98--98
+Overfull \hbox (9.51088pt too wide) in alignment at lines 98--98
+[][] 
+ []
+
+
+Overfull \hbox (7.87267pt too wide) in alignment at lines 101--101
 [][] 
  []
 
@@ -383,17 +388,17 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 10
 (C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Overfull \hbox (0.76991pt too wide) in alignment at lines 123--123
+Overfull \hbox (10.37613pt too wide) in alignment at lines 123--123
 [][] 
  []
 
 
-Overfull \hbox (1.3298pt too wide) in alignment at lines 126--126
+Overfull \hbox (8.94777pt too wide) in alignment at lines 126--126
 [][] 
  []
 
 
-Overfull \hbox (0.65324pt too wide) in alignment at lines 146--146
+Overfull \hbox (12.8946pt too wide) in alignment at lines 146--146
 [][] 
  []
 
@@ -408,15 +413,15 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: 252EA5136C80EB4367CFED7574287B8D;415.
  ) 
 Here is how much of TeX's memory you used:
- 13017 strings out of 474486
- 224685 string characters out of 5743756
+ 13015 strings out of 474486
+ 224664 string characters out of 5743756
  1943542 words of memory out of 5000000
- 35142 multiletter control sequences out of 15000+600000
- 598100 words of font info for 87 fonts, out of 8000000 for 9000
+ 35141 multiletter control sequences out of 15000+600000
+ 595252 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,10n,79p,1217b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on cv.pdf (2 pages, 67027 bytes).
+Output written on cv.pdf (2 pages, 67023 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
