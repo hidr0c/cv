@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  7 AUG 2025 11:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  7 AUG 2025 11:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -388,7 +388,7 @@ Overfull \hbox (10.37613pt too wide) in alignment at lines 123--123
  []
 
 
-Overfull \hbox (8.94777pt too wide) in alignment at lines 126--126
+Overfull \hbox (6.21028pt too wide) in alignment at lines 126--126
 [][] 
  []
 
@@ -421,9 +421,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  65i,10n,79p,1217b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on cv.pdf (2 pages, 66977 bytes).
+Output written on cv.pdf (2 pages, 67468 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
