@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  13 AUG 2025 10:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  13 AUG 2025 21:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -365,56 +365,51 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
 
-Underfull \hbox (badness 10000) in alignment at lines 88--88
+Underfull \hbox (badness 10000) in alignment at lines 82--82
 [] 
  []
 
 
-Overfull \hbox (9.51088pt too wide) in alignment at lines 98--98
+Overfull \hbox (9.51088pt too wide) in alignment at lines 90--90
 [][] 
  []
 
 
-Overfull \hbox (7.87267pt too wide) in alignment at lines 101--101
+Overfull \hbox (7.87267pt too wide) in alignment at lines 93--93
 [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 104.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 96.
 (C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
 
-Overfull \hbox (10.37613pt too wide) in alignment at lines 125--125
+Overfull \hbox (10.37613pt too wide) in alignment at lines 116--116
 [][] 
  []
 
 
-Overfull \hbox (6.21028pt too wide) in alignment at lines 128--128
+Overfull \hbox (6.21028pt too wide) in alignment at lines 119--119
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--135
-
- []
-
-
-Overfull \hbox (12.8946pt too wide) in alignment at lines 148--148
+Overfull \hbox (12.8946pt too wide) in alignment at lines 133--133
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 151--151
+Underfull \hbox (badness 10000) in alignment at lines 136--136
 [][]
  []
 
 [1
 
-{C:/Users/Hidr0/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] [2] (cv.aux)
+{C:/Users/Hidr0/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (cv.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -423,17 +418,17 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: 252EA5136C80EB4367CFED7574287B8D;415.
  ) 
 Here is how much of TeX's memory you used:
- 13015 strings out of 474486
- 224664 string characters out of 5743756
- 1943542 words of memory out of 5000000
+ 13014 strings out of 474486
+ 224658 string characters out of 5743756
+ 1945542 words of memory out of 5000000
  35141 multiletter control sequences out of 15000+600000
  595252 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,10n,79p,1217b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 65i,10n,79p,1217b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Hidr0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on cv.pdf (2 pages, 67879 bytes).
+Output written on cv.pdf (1 page, 66897 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
+ 67 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
