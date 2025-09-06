@@ -1,0 +1,161 @@
+\documentclass[a4paper,11pt]{article}
+
+% Setting up the geometry for balanced margins
+\usepackage[scale=0.85]{geometry}
+\usepackage{url}
+\usepackage{parskip}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+
+% Enhanced Unicode support for Vietnamese characters
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}  % Latin Modern fonts with better Unicode coverage
+\usepackage{tipa}     % For IPA symbols and Vietnamese characters
+\usepackage[vietnamese]{babel}  % Vietnamese language support
+
+% Define the Horn command required for Vietnamese characters
+\newcommand{\Horn}[1]{\h{#1}}
+
+% Additional Unicode character support
+\DeclareUnicodeCharacter{01B0}{\Horn{u}}  % ư
+\DeclareUnicodeCharacter{01A1}{\Horn{ho}}  % ơ
+\DeclareUnicodeCharacter{0103}{\u{a}}     % ă
+\DeclareUnicodeCharacter{0111}{\dj{}}     % đ
+
+% Times New Roman font
+\usepackage{mathptmx}
+
+% Set all links to black for black-and-white CV
+\hypersetup{colorlinks=true, urlcolor=black, linkcolor=black, citecolor=black}
+% Add setspace package for line spacing
+\usepackage{setspace}
+
+% Customizing section titles
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{6pt}
+
+% Centered column type for tabularx
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+% Fixed jobshort environment
+\newcommand{\jobshort}[3]{%
+    \begin{tabularx}{\linewidth}{@{}l r@{}}%
+    \textbf{#1} & #2 \\%
+    \multicolumn{2}{@{}p{\linewidth}@{}}{#3}%
+    \end{tabularx}%
+}
+
+% Custom environment for detailed job/project listings
+\newenvironment{joblong}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l r@{}}
+    \textbf{#1} & #2 \\[2pt]
+    \end{tabularx}
+    \begin{itemize}[nosep,leftmargin=1.5em,itemsep=2pt,label=--]
+    }
+    {
+    \end{itemize}
+    }
+
+% Begin document
+\begin{document}
+\pagestyle{empty}
+
+% FIXED TITLE SECTION
+\begin{center}
+\LARGE{Phan Xuân Thái} \\[5pt]
+\small{\href{mailto:phanxuanthai2004@gmail.com}{phanxuanthai2004@gmail.com} $|$ 
+\href{tel:0934904613}{0934904613} $|$ 
+\href{https://github.com/hidr0c}{github.com/hidr0c} $|$ 
+\href{https://www.linkedin.com/in/xuân-thái-phan-bab693352/}{linkedin.com/phan-xuan-thai} 
+} \\[2pt]
+\end{center}
+% Add extra vertical space between title and first section
+\vspace{1.5em}
+
+% Tóm tắt
+\section{Về bản thân}
+\begin{spacing}{1.05}
+Tôi là sinh viên ngành Kỹ thuật Phần mềm tại HUFLIT, có nền tảng phát triển front-end (JavaScript, TypeScript, React, Next.js, Tailwind CSS). Tôi đang tìm vị trí thực tập để áp dụng kỹ năng, đóng góp vào các dự án thực tế và học hỏi từ các chuyên gia nhiều kinh nghiệm.
+\end{spacing}
+
+% Kỹ năng
+\section{Kỹ năng}
+\begin{spacing}{1.05}
+\textbf{Ngôn ngữ lập trình:} JavaScript, TypeScript, C\#, HTML/CSS (SCSS) \\
+\textbf{Framework / Thư viện:} Bootstrap 5, React, Next.js, Tailwind CSS, ASP.NET, Flutter \\
+\textbf{Công cụ:} Visual Studio 2022, Git, Visual Studio Code \\
+\textbf{Ngôn ngữ:} Tiếng Việt (Bản ngữ), Tiếng Anh (Trung cấp)
+\end{spacing}
+
+% Học vấn
+\section{Học vấn}
+\begin{spacing}{1.05}
+\begin{tabularx}{\linewidth}{@{}l@{}}
+\textbf{Trường Đại học Ngoại ngữ - Tin học Thành phố Hồ Chí Minh (HUFLIT)} \\
+\normalsize\textit{Tháng 10/2022 -- Hiện tại} \\
+Chuyên ngành: Kỹ thuật Phần mềm -- Sinh viên năm 3
+\end{tabularx}
+\end{spacing}
+
+% Dự án
+\section{Dự án}
+\begin{spacing}{1.05}
+% Project 1
+\begin{minipage}[t]{\linewidth}
+  \begin{tabularx}{\linewidth}{@{}l r@{}}
+    \textbf{TUYU Archives} & \hspace*{0.63\linewidth}\normalsize\textit{26/11/2024 -- 03/07/2025} \\
+  \end{tabularx}
+  \begin{tabularx}{\linewidth}{@{}l r@{}}
+  \normalsize\textit {TypeScript, Next.js, Tailwind CSS, Google Drive API}& \hspace*{0.255\linewidth}\href{https://github.com/hidr0c/tuyu-archives}{\normalsize\textit{github.com/hidr0c/tuyu-archives}}\\
+  \end{tabularx}
+  \textbf{Website:} \href{https://tuyu-archives-pied.vercel.app}{\normalsize\textit{https://tuyu-archives-pied.vercel.app}}  
+  \begin{itemize}[nosep,leftmargin=1.2em,itemsep=2pt]
+  \item Xây dựng ứng dụng phát video (streaming) bằng Next.js \& React, tích hợp Google Drive API để lấy video và phụ đề.
+  \item Phát triển \textbf{EnhancedVideoPlayer} (playlist, tải phụ đề động, các điều khiển cơ bản) và các REST API để quản lý video.
+  \end{itemize}
+\end{minipage}
+
+\vspace{0.5em}
+
+% Project 2
+\begin{minipage}[t]{\linewidth}
+  \begin{tabularx}{\linewidth}{@{}l r@{}}
+    \textbf{PXT Food Store} & \hspace*{0.63\linewidth}\normalsize\textit{06/05/2025 -- 28/07/2025} \\
+  \end{tabularx}
+  \begin{tabularx}{\linewidth}{@{}l r@{}}
+  \normalsize\textit{Flutter, Dart, REST API, Firebase} & \hspace*{0.405\linewidth}\href{https://github.com/hidr0c/PXTFoodStore}{\normalsize\textit{github.com/hidr0c/PXTFoodStore}}\\
+  \end{tabularx}
+ \begin{itemize} [nosep,leftmargin=1.2em,itemsep=2pt]
+  \item Phát triển ứng dụng đặt đồ ăn đa nền tảng bằng Flutter, hỗ trợ Android, iOS, web và desktop.
+  \item Thiết kế giao diện Material tùy chỉnh với bố cục phản hồi (responsive), Google Fonts và hỗ trợ đa ngôn ngữ.
+  \item Quản lý trạng thái ứng dụng và logic giỏ hàng bằng Provider; lưu trữ giỏ hàng và lịch sử đơn hàng với SharedPreferences.
+  \item Thêm hệ thống đánh giá, tính năng tải ảnh và các chức năng quản trị cho quản lý đơn hàng và tồn kho.
+\end{itemize}
+\end{minipage}
+\end{spacing}
+
+% Hoạt động
+\section{Hoạt động}
+\begin{spacing}{1.05}
+\begin{tabularx}{\linewidth}{@{}l r@{}}
+  \textbf{MSOC Tournament} & \hspace*{0.64\linewidth}\normalsize\textit{ 10/2023 --  12/2024} \\
+\end{tabularx}
+\begin{tabularx}{\linewidth}{@{}l r@{}}
+  \normalsize\textit{Trưởng nhóm, Quản lý dự án} 
+  \end{tabularx}
+\begin{itemize}[nosep,leftmargin=1.2em,itemsep=2pt]
+  \item Tổ chức giải đấu maimai dành cho sinh viên phối hợp với Dream Games Tan Phu.
+  \item Lập kế hoạch, phối hợp và quản lý các hoạt động sự kiện, truyền thông và nhiệm vụ đội ngũ, đảm bảo triển khai suôn sẻ.
+  \item Thu hút đông đảo người tham gia và nhận phản hồi tích cực từ đối tác, với hơn 50 người tham dự trực tiếp.
+  \item Bài viết chi tiết trên \href{https://www.linkedin.com/feed/update/urn:li:activity:7300042302784233472/}{\underline{LinkedIn}}.
+\end{itemize}
+\end{spacing}
+
+% Footer
+\vspace*{\fill}
+\end{document}

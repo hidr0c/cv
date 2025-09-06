@@ -1,7 +1,7 @@
 PWD c:\Users\Hidr0\Desktop\cv
 INPUT C:\Users\Hidr0\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Hidr0\Desktop\cv\cv.tex
-OUTPUT cv.log
+INPUT c:\Users\Hidr0\Desktop\cv\cv copy.tex
+OUTPUT cv copy.log
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
@@ -107,8 +107,23 @@ INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1095.tfm
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\lm\lmodern.sty
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\lm\lmodern.sty
-INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
-INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\tipa\tipa.sty
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\tipa\tipa.sty
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\tipa\t3enc.def
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\tipa\t3enc.def
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\tipa\t3enc.def
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsl1095.tfm
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1095.tfm
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrb1095.tfm
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss10.tfm
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\generic\babel\txtbabel.def
@@ -136,14 +151,17 @@ INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1ptm.fd
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1ptm.fd
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1ptm.fd
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT .\cv.aux
-INPUT .\cv.aux
-INPUT cv.aux
+INPUT .\cv copy.aux
+INPUT .\cv copy.aux
+INPUT cv copy.aux
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\vntex\t5ptm.fd
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\vntex\t5ptm.fd
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\vntex\t5ptm.fd
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmr8v.tfm
-OUTPUT cv.aux
+OUTPUT cv copy.aux
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\tipa\t3cmr.fd
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\tipa\t3cmr.fd
+INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\tipa\t3cmr.fd
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\vntex\t5cmr.fd
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\vntex\t5cmr.fd
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\vntex\t5cmr.fd
@@ -161,14 +179,14 @@ INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pd
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT .\cv.out
-INPUT .\cv.out
-INPUT cv.out
-INPUT cv.out
-OUTPUT cv.pdf
-INPUT .\cv.out
-INPUT .\cv.out
-OUTPUT cv.out
+INPUT .\cv copy.out
+INPUT .\cv copy.out
+INPUT cv copy.out
+INPUT cv copy.out
+OUTPUT cv copy.pdf
+INPUT .\cv copy.out
+INPUT .\cv copy.out
+OUTPUT cv copy.out
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmr8v.tfm
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmr8v.tfm
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
@@ -235,9 +253,9 @@ INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmr8v.
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
-INPUT cv.aux
-INPUT .\cv.out
-INPUT .\cv.out
+INPUT cv copy.aux
+INPUT .\cv copy.out
+INPUT .\cv copy.out
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\Hidr0\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\urwvn\utmb8v.pfb
